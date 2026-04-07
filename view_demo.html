@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stored Demo Data</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="data-page">
+  <h1>Stored Demo Data</h1>
+  <p>This page shows redacted placeholders only. User-entered text is not displayed back in raw form.</p>
+  <p>
+    <a href="index.html">Back to login demo</a>
+    &nbsp;|&nbsp;
+    <a href="#" id="clearRecords">Clear demo records</a>
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Username Field</th>
+        <th>Password Field</th>
+        <th>Submitted At</th>
+      </tr>
+    </thead>
+    <tbody id="recordsTableBody">
+      <tr>
+        <td colspan="4">No demo data yet. Submit the form from the home page.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="assets/script.js"></script>
+  <script>
+    renderDemoTable();
+  </script>
+</body>
+</html>

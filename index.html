@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Login Training Demo</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="left">
+      <div class="logo">S</div>
+    </section>
+
+    <section class="right">
+      <h1>Happening now</h1>
+      <h2>Phishing Awareness Demo</h2>
+
+      <div class="notice">
+        Training simulation only. This GitHub Pages version accepts any text in the form,
+        but stores only the placeholder <strong>* raw data redacted *</strong> in your browser.
+      </div>
+
+      <div class="card">
+        <button class="btn btn-light" type="button">Sign up with Google</button>
+        <button class="btn btn-light" type="button">Sign up with Apple</button>
+
+        <div class="divider">or</div>
+
+        <button class="btn btn-primary" type="button">Create account</button>
+
+        <p class="small">
+          This static demo simulates a login-to-storage flow while avoiding storage of user-entered secrets.
+        </p>
+      </div>
+
+      <div class="signin-box">
+        <h3>Already have an account?</h3>
+
+        <form id="demoForm">
+          <input
+            class="input"
+            type="text"
+            name="demo_username"
+            id="demo_username"
+            placeholder="Phone, email, or username"
+            required
+          />
+
+          <input
+            class="input"
+            type="password"
+            name="demo_password"
+            id="demo_password"
+            placeholder="Password"
+            required
+          />
+
+          <div class="hint">
+            You can type any text. The demo view will display <strong>* raw data redacted *</strong> instead of the original values.
+          </div>
+
+          <button class="btn btn-primary" type="submit">Sign in</button>
+          <button class="btn btn-dark" type="button" onclick="window.location.href='view_demo.html'">
+            View stored demo data
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="index.html">Home</a>
+    <a href="view_demo.html">View Demo Data</a>
+    <span>© 2026 Social Login Training Demo</span>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
