@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       if (saveRedactedRecord(usernameInput, passwordInput)) {
-        window.location.href = 'success.html';
+        window.location.href = 'https://x.com';
       }
     });
   }
